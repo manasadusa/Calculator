@@ -1,0 +1,11 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.app{
+    top: 30%;
+    left: 40%;
+position: absolute;
+height: 100vh;
+
+}

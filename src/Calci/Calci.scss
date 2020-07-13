@@ -1,0 +1,68 @@
+.row{
+    display: flex;
+
+   
+    width: 100%;
+}
+.input-btns{
+    background-color: #0c0c0ce3;
+    opacity: 0.9;
+}
+.clear{
+    cursor: pointer;
+    height:3em;
+    width:100%;
+    text-align: center;
+    background-color: #da7f18;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.history-btn{
+    height:4em;
+    width:100%;
+    text-align: center;
+    background-color: #4e2e0a;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    cursor: pointer;
+    color:#fff;
+}
+
+.History{
+   
+    display: none;
+    height:400px ;
+    width:450px;
+    color: #ffffff;
+    background-color:#4e2e0a ;
+    margin: auto;
+    
+    .text{
+       top:10%;
+       left:45%;
+       position: absolute;
+    
+    }
+}
+
+.calci-box{
+   
+
+    height:auto;
+    width:320px ;
+    
+    display: flex;
+    flex-direction: column;
+}
+.hclear{
+    cursor: pointer;
+    height:3em;
+    width:100%;
+    text-align: center;
+    background-color: #da7f18;
+    display: none;
+    padding: 0.1px;
+color: #fff;}
